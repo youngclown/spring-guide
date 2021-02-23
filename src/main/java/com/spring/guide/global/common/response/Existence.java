@@ -6,7 +6,7 @@ import lombok.Getter;
 @Getter
 public class Existence {
 
-    private boolean existence;
+    private final boolean existence;
 
     public Existence(boolean existence) {
         this.existence = existence;
